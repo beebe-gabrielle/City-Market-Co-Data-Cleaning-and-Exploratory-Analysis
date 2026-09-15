@@ -8,14 +8,9 @@ Tableau Public Dashboard: (__insert link__)
 
 ## Tools Used
 
-**Tableau** - Data Modeling, Visualization, Dashboard
-
 **Excel** - Data Cleaning, Validation, Calculations
 
-**Claude** - Data Syntheisizing, Data Cleaning
-
-**GitHub** - Documentation, Version Control
-
+**Tableau** - Data Modeling, Visualization, Dashboard
 
 ## Overview
 City Market Co. is a fictional multi-store retailer seeking to understand the drivers of sales and profitability across its 20 stores. Management needs visibility into regional and city-level performance, product profitability, seasonal trends, and areas where sales volume is not translating into proportional profit. 
