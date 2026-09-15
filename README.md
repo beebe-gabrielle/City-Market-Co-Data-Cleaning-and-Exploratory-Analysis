@@ -18,7 +18,7 @@ Tableau Public Dashboard: (__insert link__)
 
 
 ## Overview
-City Market Co. is a fictitious retail company operating 20 stores across four geographic regions. This project delivers an end-to-end analysis of sales and product performance, with a focus on building intuitive, decision-ready dashboards.
+City Market Co. is a fictitious retail company operating 20 stores across four geographic regions. This project delivers an end-to-end analysis of sales and product performance, with a focus on building intuitive, decision-ready dashboards. 
 
 The dashboards are designed to surface profitability drivers, highlight performance trends, and pinpoint areas of operational inefficiency. 
 
@@ -28,11 +28,11 @@ This analysis aims to translate raw sales data into actionable insights that sup
 
 Key business questions addressed:
 
-* **Which cities and regions are driving the most profit, and where are we underperforming?**
+* **Which cities and regions are driving the most profit, and where is the company underperforming?**
 
 * **How is the business trending year-over-year?**
 
-* **What seasonal patterns exist in sales and profit across months?**
+* **What seasonal patterns exist across sales and profit?**
 
 * **Which product subcategories deliver strong margins vs. weak returns?**
 
@@ -47,10 +47,9 @@ Key business questions addressed:
 
 **Growth is steady, but slowing:**
 Net Sales ($16.9M) and Net Profit ($3.6M) are both up YoY, but growth has tapered from ~8.9% to 6.3%.
-Momentum is positive, just decelerating.
 
 **Profitablility is strong overall:**
-A 21.07% profit margin (up 1.4% vs. prior year) indicates the business is becoming more profitable. Drivers behind that improvement warrant further investigation. 
+A 21.07% profit margin (up 1.4% vs. prior year) indicates the business is becoming more profitable. 
 
 **Profit is concentrated in Northeast cities:**
 New York, Philadelphia, and Boston lead in total profit, indicating the Northeast is the primary proit engine. 
@@ -74,13 +73,13 @@ The heatmap shows that nearly every store struggles in January and February, wit
 ## Key Insights 
 
 **Unit growth is outpacing value growth**
-Units Sold (+5.3% YoY) increased meaningfully, while Average Order Value (+0.4%) remained nearly flat. Growth is being driven by volume, not higher-value transactions.
+Units Sold (+5.3% YoY) increased meaningfully, while Average Order Value (+0.4%) remained nearly flat. 
 
 **Profit per order is improving, but modestly**
 Average Profit per Order rose 1.8% YoY, indicating slight margin gain though not at the same pace as unit growth, suggesting the business is scaling volume faster than it is scailing value. 
 
 **High-margin subcategories are not always top profit drivers**
-Some of the highest margin categories (e.g. Phones 35.2%, Outdoor 32.2%) are strong contributors, but others with high margins (e.g. Decor 36%, Furniture 33.5%) fall into low total profit suggesting low sales volume is limiting impact. 
+Some of the highest margin categories (Phones 35.2%, Outdoor 32.2%) are strong contributors, but others with high margins (e.g. Decor 36%, Furniture 33.5%) fall into low total profit suggesting low sales volume is limiting impact. 
 
 **Low-margin categories are dragging overall profitability**
 subcategories like Accessories (15.4%) and Games (9.8%) generate weak margins and contribute to the bottom tier of profit performance, making them clear targets for pricing or cost optimization.
@@ -89,7 +88,7 @@ subcategories like Accessories (15.4%) and Games (9.8%) generate weak margins an
 Educational, Laptops, and Kitchen lead in total profit, indicating a reliance on a small group of categories to drive overall product profitiability.
 
 **Clear gaps between high-sales and high-margin segments**
-The scatterplot shows several subcategories sitting above teh average margine line but but left of the average sales line (high margin, low volume) reoresenting the clearest growth opportunites. Subcategories below average profit margin but right of average sales are generating volume without proportional profitability. 
+The scatterplot shows several subcategories sitting above the average margine line but left of the average sales line (high margin, low volume) representing the clearest growth opportunites. Subcategories below average profit margin but right of average sales are generating volume without proportional profitability. 
 
 **Seasonal demand varies significantly by subcategory**
 The heatmap shows Menswear and Chairs having their worst profit in January and February before recovering later in the year. Top subcategories like Educational and Laptops show steady blue throught, suggesting their profitability is less seasonal and more structually driven.
