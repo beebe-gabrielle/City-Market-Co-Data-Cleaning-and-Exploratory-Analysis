@@ -2,7 +2,7 @@
 
 <p></p>
 
-# Sales & Product Performance Dashboard & Analysis
+# City Market Co. | Sales & Product Performance Analysis
 
 Tableau Public Dashboard: (__insert link__)
 
@@ -18,23 +18,17 @@ Tableau Public Dashboard: (__insert link__)
 
 
 ## Overview
-City Market Co. is a fictitious retail company operating 20 stores across four geographic regions. This project delivers an end-to-end analysis of sales and product performance, with a focus on building intuitive, decision-ready dashboards. 
+City Market Co. is a fictional multi-store retailer seeking to understand the drivers of sales and profitability across its 20 stores. Management needs visibility into regional and city-level performance, product profitability, seasonal trends, and areas where sales volume is not translating into proportional profit. 
 
-The dashboards are designed to surface profitability drivers, highlight performance trends, and pinpoint areas of operational inefficiency. 
+This analysis aims to translate raw sales data into actionable insights that will address the following business questions posed by managment:
 
-## Objective
+* **Where are our strongest and weakest markets across regions and cities?**
 
-This analysis aims to translate raw sales data into actionable insights that support strategic decision-making. The dahsboard are structured to help stakeholders quickly evaluate performance, identify risks, and uncover growth opportunities.
+* **How is company perfomance evolving YoY?**
 
-Key business questions addressed:
+* **Which seasonal cycles most affect sales and profitability?**
 
-* **Which cities and regions are driving the most profit, and where is the company underperforming?**
-
-* **How is the business trending year-over-year?**
-
-* **What seasonal patterns exist across sales and profit?**
-
-* **Which product subcategories deliver strong margins vs. weak returns?**
+* **Which product areas drive margin growth, and which erode profitablity?**
 
 
 # Sales Dashboard 
@@ -96,26 +90,6 @@ The heatmap shows Menswear and Chairs having their worst profit in January and F
 # Recommendations
 
 
-**Address low margin, high volumn products:**
-
-**Investigate high margin, low-volume opportunities:**
-
-**Investigate January/February weakness:**
-
-**Reduce dependence on a small number of profit drivers:**
-
-
-Answer these questions in a report form:
-
-Which cities and regions are driving the most profit, and where is the company underperforming?
-
-How is the business trending year-over-year?
-
-What seasonal patterns exist across sales and profit?
-
-Which product subcategories deliver strong margins vs. weak returns?
-
-# Conclusion
 
 
 
