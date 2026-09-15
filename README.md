@@ -95,6 +95,16 @@ The heatmap shows Menswear and Chairs having their worst profit in January and F
 
 # Recommendations
 
+
+**Address low margin, high volumn products:**
+
+**Investigate high margin, low-volume opportunities:**
+
+**Investigate January/February weakness:**
+
+**Reduce dependence on a small number of profit drivers:**
+
+
 Answer these questions in a report form:
 
 Which cities and regions are driving the most profit, and where is the company underperforming?
