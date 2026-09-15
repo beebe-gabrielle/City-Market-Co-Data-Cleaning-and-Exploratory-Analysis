@@ -26,7 +26,7 @@ This analysis aims to translate raw sales data into actionable insights that wil
 * **Which product areas drive margin growth, and which erode profitablity?**
 
 
-# Sales Dashboard 
+## Sales Dashboard 
 <img width="1164" height="784" alt="image" src="https://github.com/user-attachments/assets/726e2594-666a-45d7-ab2f-c395e22cc3d7" />
 
 <p></p>
@@ -53,7 +53,7 @@ Sales climb through Q4, but profit only spikes sharply in December, suggesting m
 The heatmap shows that nearly every store struggles in January and February, with profit turning negative or flat across all locations. Performance builds through the year and peaks in Q4, indicating a heavy reliance on holiday/seasonal sales to drive annual profitability. 
 
 
-# Products Dashboard 
+## Products Dashboard 
 
 <img width="1164" height="784" alt="image" src="https://github.com/user-attachments/assets/688fc216-6984-41d4-9011-d390ea20c6f7" />
 
