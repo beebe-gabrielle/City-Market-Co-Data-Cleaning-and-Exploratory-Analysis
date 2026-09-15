@@ -82,7 +82,7 @@ The scatterplot shows several subcategories sitting above the average margine li
 **Seasonal demand varies significantly by subcategory**
 The heatmap shows Menswear and Chairs having their worst profit in January and February before recovering later in the year. Top subcategories like Educational and Laptops show steady blue throught, suggesting their profitability is less seasonal and more structually driven.
 
-# Recommendations
+## Recommendations
 
 **1. Strengthen performance in underperforming cities:**
 Charlotte, Phoenix, and Los Angeles consistently lag in profit despite being in different regions. Recommended actions include:
