@@ -12,7 +12,7 @@ Tableau Public Dashboard: (__insert link__)
 
 **Tableau** - Data Modeling, Visualization, Dashboard
 
-## Executive Sumamary
+## Executive Summary
 City Market Co. is a fictional multi-store retailer seeking to understand the drivers of sales and profitability across its 20 stores. Management needs visibility into regional and city-level performance, product profitability, seasonal trends, and areas where sales volume is not translating into proportional profit. 
 
 This analysis aims to translate raw sales data into actionable insights that will address the following business questions posed by managment:
