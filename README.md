@@ -12,7 +12,7 @@ Tableau Public Dashboard: (__insert link__)
 
 **Tableau** - Data Modeling, Visualization, Dashboard
 
-## Overview
+## Executive Sumamary
 City Market Co. is a fictional multi-store retailer seeking to understand the drivers of sales and profitability across its 20 stores. Management needs visibility into regional and city-level performance, product profitability, seasonal trends, and areas where sales volume is not translating into proportional profit. 
 
 This analysis aims to translate raw sales data into actionable insights that will address the following business questions posed by managment:
@@ -25,6 +25,7 @@ This analysis aims to translate raw sales data into actionable insights that wil
 
 * **Which product areas drive margin growth, and which erode profitablity?**
 
+## Data Overview
 
 ## Sales Dashboard 
 <img width="1164" height="784" alt="image" src="https://github.com/user-attachments/assets/726e2594-666a-45d7-ab2f-c395e22cc3d7" />
