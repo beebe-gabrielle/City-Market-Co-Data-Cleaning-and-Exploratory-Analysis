@@ -15,7 +15,7 @@ Tableau Public Dashboard: (__insert link__)
 ## Project Overview & Objectives
 City Market Co. is a fictional multi-store retailer seeking to understand the drivers of sales and profitability across its 20 stores. Management needs visibility into regional and city-level performance, product profitability, seasonal trends, and areas where sales volume is not translating into proportional profit. 
 
-This analysis aims to translate raw sales data into actionable insights that will address the following business questions posed by managment:
+This analysis aims to translate raw sales data into actionable insights that will address the following business questions posed by management:
 
 * **Where are our strongest and weakest markets across regions and cities?**
 
@@ -26,6 +26,36 @@ This analysis aims to translate raw sales data into actionable insights that wil
 * **Which product areas drive margin growth, and which erode profitablity?**
 
 ## Data Overview
+
+To ensure accurate analysis, raw transactional records were processed and validated in Excel before being modeled in Tableau. The primary dataset covers retail sales transactions across 20 store locations, tracking order details, product classifications, financial metrics, and customer demographics.
+
+**Data Cleaning & Quality Log:**
+* Imputations and Calculations: Imputed missing 'profit' values using 'net_sales_clean - cost_clean', resolved 3,498 missing 'cost' records using 'net_sales_clean - profit_clean', and created a financial_status_flag (Complete, Incomplete, Not Usable) to classify record integrity.
+
+* Formatting & Standardization: Standardized text fields, converted numeric strings to clean numeric data types, and addressed negative values in return flags.
+
+**Key Data Attributes:**
+* Order Info: order_id, order_date, order_time, channel, customer_segment
+
+* Geography & Store: store_id, region
+
+* Product Hierarchy: category, subcategory
+
+* Financial Metrics: unit_price, quantity, gross_sales, net_sales, cost, profit
+
+* Performance & Data Quality: shipping_days, satisfaction score, return_flag, financial_completeness_flag
+
+**Figure 1: Data Cleaning & Transformation Log**
+
+<img width="1146" height="131" alt="image" src="https://github.com/user-attachments/assets/2b1717a0-1537-4deb-a702-27310b6ad591" />
+
+**Figure 2: Cleaned Dataset Sample**
+
+<img width="1218" height="203" alt="image" src="https://github.com/user-attachments/assets/bfc55982-0e41-4d05-9d20-3640045e3dbe" />
+
+<img width="1288" height="120" alt="image" src="https://github.com/user-attachments/assets/84798493-6f01-49f5-b85b-80e0f72f5d4a" />
+
+
 
 ## Sales Dashboard 
 <img width="1164" height="784" alt="image" src="https://github.com/user-attachments/assets/726e2594-666a-45d7-ab2f-c395e22cc3d7" />
@@ -38,11 +68,11 @@ This analysis aims to translate raw sales data into actionable insights that wil
 **Growth is steady, but slowing:**
 Net Sales ($16.9M) and Net Profit ($3.6M) are both up YoY, but growth has tapered from ~8.9% to 6.3%.
 
-**Profitablility is strong overall:**
+**Profitability is strong overall:**
 A 21.07% profit margin (up 1.4% vs. prior year) indicates the business is becoming more profitable. 
 
 **Profit is concentrated in Northeast cities:**
-New York, Philadelphia, and Boston lead in total profit, indicating the Northeast is the primary proit engine. 
+New York, Philadelphia, and Boston lead in total profit, indicating the Northeast is the primary profit engine. 
 
 **Underperforming cities are spread across regions:**
 Bottom performers (Charlotte, Phoenix, Los Angeles) are not isolated to one region, pointing to city-level execution issues rather than regional strategy alone. 
@@ -66,7 +96,7 @@ The heatmap shows that nearly every store struggles in January and February, wit
 Units Sold (+5.3% YoY) increased meaningfully, while Average Order Value (+0.4%) remained nearly flat. 
 
 **Profit per order is improving, but modestly**
-Average Profit per Order rose 1.8% YoY, indicating slight margin gain though not at the same pace as unit growth, suggesting the business is scaling volume faster than it is scailing value. 
+Average Profit per Order rose 1.8% YoY, indicating slight margin gain though not at the same pace as unit growth, suggesting the business is scaling volume faster than it is scaling value. 
 
 **High-margin subcategories are not always top profit drivers**
 Some of the highest margin categories (Phones 35.2%, Outdoor 32.2%) are strong contributors, but others with high margins (e.g. Decor 36%, Furniture 33.5%) fall into low total profit suggesting low sales volume is limiting impact. 
