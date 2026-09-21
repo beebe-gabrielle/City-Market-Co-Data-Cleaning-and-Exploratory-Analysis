@@ -29,7 +29,7 @@ This analysis aims to translate raw sales data into actionable insights that wil
 
 To ensure accurate analysis, raw transactional records were processed and validated in Excel before being modeled in Tableau. The primary dataset covers retail sales transactions across 20 store locations, tracking order details, product classifications, financial metrics, and customer demographics.
 
-**Data Cleaning & Quality Log Sample:**
+**Data Cleaning & Quality Log:**
 * Imputations and Calculations: Imputed missing 'profit' values using 'net_sales_clean - cost_clean', resolved 3,498 missing 'cost' records using 'net_sales_clean - profit_clean', and created a financial_status_flag (Complete, Incomplete, Not Usable) to classify record integrity.
 
 * Formatting & Standardization: Standardized text fields, converted numeric strings to clean numeric data types, and addressed negative values in return flags.
@@ -45,7 +45,7 @@ To ensure accurate analysis, raw transactional records were processed and valida
 
 * Performance & Data Quality: shipping_days, satisfaction score, return_flag, financial_completeness_flag
 
-**Figure 1: Data Cleaning & Transformation Log**
+**Figure 1: Data Cleaning & Transformation Log Sample**
 
 <img width="1146" height="131" alt="image" src="https://github.com/user-attachments/assets/2b1717a0-1537-4deb-a702-27310b6ad591" />
 
