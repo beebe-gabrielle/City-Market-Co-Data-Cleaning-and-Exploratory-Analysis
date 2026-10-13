@@ -58,7 +58,7 @@ To ensure accurate analysis, raw transactional records were processed and valida
 
 
 ## Sales Dashboard 
-<img width="1164" height="784" alt="image" src="https://github.com/user-attachments/assets/726e2594-666a-45d7-ab2f-c395e22cc3d7" />
+<img width="1297" height="739" alt="image" src="https://github.com/user-attachments/assets/726e2594-666a-45d7-ab2f-c395e22cc3d7" />
 
 <p></p>
 
@@ -86,7 +86,7 @@ The heatmap shows that nearly every store struggles in January and February, wit
 
 ## Products Dashboard 
 
-<img width="1164" height="784" alt="image" src="https://github.com/user-attachments/assets/688fc216-6984-41d4-9011-d390ea20c6f7" />
+<img width="1297" height="739" alt="image" src="https://github.com/user-attachments/assets/688fc216-6984-41d4-9011-d390ea20c6f7" />
 
 <p></p>
 
