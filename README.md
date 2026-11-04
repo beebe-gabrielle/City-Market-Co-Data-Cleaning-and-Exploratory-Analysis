@@ -25,6 +25,14 @@ This analysis aims to translate raw sales data into actionable insights that wil
 
 * **Which categories carry the highest order values, and which have return-rate problems?**
 
+## Summary of Findings
+**Revenue is growing beyond seasonality.** A linear trend line shows baseline monthly revenue rising from roughly $1M to about $1.4M between 2021 and 2025.
+  
+**The seasonal pattern is consistent.** November and December are the strongest months in every year, and January and February are consistently among the softest.
+
+**Toys and Electronics are the core profit drivers,** pairing above-average profit with above-average margin. Home also narrowly clears both averages.
+  
+**Beauty and Apparel carry a return-rate problem.** Both pair high revenue with return rates well above the 4.0% company average (8.5% and 7.6%), which puts pressure on the profit they deliver.
 
 ## Executive Sales & Performance Dashboard 
 
@@ -45,7 +53,7 @@ This analysis aims to translate raw sales data into actionable insights that wil
 
 | View | What it shows |
 |---|---|
-| **Monthly Revenue & Long-Term Growth** | Monthly revenue line with a rolling 12-month average to separate baseline growth from holiday peaks |
+| **Monthly Revenue & Long-Term Growth** | Monthly revenue line with a linear trend line to separate baseline growth from seasonal peaks |
 | **Monthly Revenue by Year (heatmap)** | Month × year grid showing recurring year-end (Nov–Dec) peaks, ranging from ~$704K to ~$2.1M |
 | **Profitability & Margin by Category** | Profit vs. margin scatter with crosshairs at company averages (20.7% margin / $1.91M profit) |
 | **Revenue Contribution by Category** | Ranked revenue by category against the $9.2M category average |
@@ -56,13 +64,13 @@ This analysis aims to translate raw sales data into actionable insights that wil
 
 ## Key Insights
 
-* **Is revenue growing over the long term, independent of holiday spikes?** Yes. The rolling 12-month average trends steadily upward from roughly $1M to $1.4M+ per month between 2021 and 2025, showing baseline growth that is not explained by holiday peaks alone.
+* **Is revenue growing over the long term, independent of seasonal spikes?** Yes. The linear trend line rises steadily from roughly $1M to about $1.4M in monthly revenue between 2021 and 2025, showing baseline growth that is not explained by seasonal peaks alone.
 
-* **How consistent is the seasonal pattern across years?** Very consistent. November and December are the strongest months in every year (ranging up to ~$2.1M), with 2023–2025 showing the highest year-end revenue. January and February are consistently among the softest months.
+* **How consistent is the seasonal pattern across years?** Very consistent. November and December are the strongest months in every year (reaching about $2.1M), with 2023–2025 showing the highest year-end revenue. January and February are consistently among the softest months.
 
-* **Which categories drive both profit and margin?** Toys and Electronics are the core drivers, landing in the top-right quadrant with above-average profit and margin (vs. the 20.7% margin / $1.91M profit company averages). Home and Sports have high margins (~25–30%) but lower total profit due to lower revenue. Apparel, Toys, and Electronics together generate roughly 49% of total revenue.
+* **Which categories drive both profit and margin?** Toys and Electronics are the core drivers, landing in the top-right quadrant with above-average profit and margin (vs. the 20.7% margin / $1.91M profit company averages). Home also clears both averages, but only narrowly on profit despite having the highest margin (about 29%). Sports has a strong margin (about 25%) but below-average profit because of its lower revenue. Apparel, Toys, and Electronics together generate roughly 49% of total revenue.
 
-* **Which categories carry the highest order values, and which have return-rate problems?** Toys ($960.30) and Beauty ($797.48) lead on AOV, while Home is lowest at $361.76. Beauty (8.5%), Apparel (7.6%), and Electronics (5.0%) exceed the 4% company average return rate. Beauty and Apparel are the biggest concern, since they pair high revenue and order value with high returns.
+* **Which categories carry the highest order values, and which have return-rate problems?** Toys ($960.30) and Beauty ($797.48) lead on AOV, while Home is lowest at $361.76. Beauty (8.5%), Apparel (7.6%), and Electronics (5.0%) exceed the 4.0% company average return rate. Beauty and Apparel are the biggest concern, since they pair high revenue and order value with high returns.* 
 
 ## Recommendations
 
@@ -73,11 +81,11 @@ This analysis aims to translate raw sales data into actionable insights that wil
 
 ## Conclusion
 
-City Market Co. is on a healthy long-term growth path, with revenue climbing steadily beyond the effect of holiday peaks. Performance is highly seasonal: November and December consistently deliver the strongest results, so planning around the year-end surge is critical.
+City Market Co. is on a healthy long-term growth path, with revenue climbing steadily beyond the effect of seasonal peaks. Performance is highly seasonal: November and December consistently deliver the strongest results, so planning around the year-end surge is critical.
 
-Profitability is not evenly distributed across the portfolio. Toys and Electronics are the clearest core drivers, pairing above-average profit with strong margins, while Home and Sports show healthy margins but limited scale. Beauty and Apparel generate substantial revenue and high order values, but their elevated return rates put pressure on the profit they deliver.
+Profitability is not evenly distributed across the portfolio. Toys and Electronics are the clearest core drivers, while Home and Sports show healthy margins but limited scale. Beauty and Apparel generate substantial revenue and high order values, but their elevated return rates put pressure on the profit they deliver.
 
-Overall, the biggest opportunities lie in protecting the strongest categories, reducing returns in high-revenue categories, and building volume where margins are already strong, so that sales growth translates into proportionally stronger profit.
+The biggest opportunities lie in protecting the strongest categories, reducing returns in high-revenue categories, and building volume where margins are already strong, so that sales growth translates into proportionally stronger profit.
 
 ## Data Overview
 
@@ -109,7 +117,15 @@ To ensure accurate analysis, raw transactional records were processed and valida
 
 <img width="1288" height="120" alt="image" src="https://github.com/user-attachments/assets/84798493-6f01-49f5-b85b-80e0f72f5d4a" />
 
+## Limitations
 
+* The data is fictional, so findings illustrate the analytical process and are not real business results.
+  
+* The trend line is linear and shows the overall direction of revenue, not year-to-year changes in growth rate.
+  
+* The dataset has no return reason codes, so the analysis shows where returns are high but cannot explain why.
+
+* Some cost and profit values were imputed from other fields, so margin figures depend on those calculations.
 
 
 
