@@ -84,7 +84,7 @@ Overall, the biggest opportunities lie in protecting the strongest categories, r
 To ensure accurate analysis, raw transactional records were processed and validated in Excel before being modeled in Tableau. The primary dataset covers retail sales transactions across 20 store locations, tracking order details, product classifications, financial metrics, and customer demographics.
 
 **Data Cleaning & Quality Log:**
-* Imputations and Calculations: Imputed missing 'profit' values using 'net_sales_clean - cost_clean', resolved 3,498 missing 'cost' records using 'net_sales_clean - profit_clean', and created a financial_status_flag (Complete, Incomplete, Not Usable) to classify record integrity.
+* Imputations and Calculations: Imputed missing 'profit' values using 'net_sales_clean - cost_clean', resolved 3,498 missing 'cost' records using 'net_sales_clean - profit_clean', and created a financial_completeness_flag (Complete, Incomplete, Not Usable) to classify record integrity.
 
 * Formatting & Standardization: Standardized text fields, converted numeric strings to clean numeric data types, and addressed negative values in return flags.
 
