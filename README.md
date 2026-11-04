@@ -13,17 +13,70 @@ Tableau Public Dashboard: (__insert link__)
 **Tableau** - Data Modeling, Visualization, Dashboard
 
 ## Project Overview & Objectives
-City Market Co. is a fictional retailer seeking to understand the drivers of sales and profitability across its 20 store locations. Management needs visibility into regional and city-level performance, product profitability, seasonal trends, and areas where sales volume is not translating into proportional profit. 
+City Market Co. is a fictional retailer seeking to understand the drivers of sales and profitability across its 20 store locations. Management needs visibility into company-wide growth, product profitability, seasonal trends,and product category performance, with particular attention to areas where sales volume is not translating into proportional profit.. 
 
 This analysis aims to translate raw sales data into actionable insights that will address the following business questions posed by management:
 
-* **Where are our strongest and weakest markets across regions and cities?**
+* **Is revenue growing over the long term, independent of seasonal spikes?**
 
-* **How is company perfomance evolving YoY?**
+* **How consistent is the seasonal pattern across years?**
+  
+* **Which categories drive both profit and margin?**
 
-* **Which seasonal cycles most affect sales and profitability?**
+* **Which categories carry the highest order values, and which have return-rate problems?**
 
-* **Which product areas drive margin growth, and which erode profitablity?**
+
+## Executive Sales Performance Dashboard 
+
+<img width="1246" height="766" alt="image" src="https://github.com/user-attachments/assets/7c9fc94b-bc42-466e-90de-c768f4111eac" />
+
+<p></p>
+
+## Headline KPIs (all regions, all years)
+
+| Metric | Value |
+|---|---|
+| Total Revenue | $73,702,716 |
+| Profit Margin | 20.7% |
+| Average Order Value | $627.04 |
+| Return Rate | 4.0% |
+
+## Dashboard Views
+
+| View | What it shows |
+|---|---|
+| **Monthly Revenue & Long-Term Growth** | Monthly revenue line with a rolling 12-month average to separate baseline growth from holiday peaks |
+| **Monthly Revenue by Year (heatmap)** | Month × year grid showing recurring year-end (Nov–Dec) peaks, ranging from ~$704K to ~$2.1M |
+| **Profitability & Margin by Category** | Profit vs. margin scatter with crosshairs at company averages (20.7% margin / $1.91M profit) |
+| **Revenue Contribution by Category** | Ranked revenue by category against the $9.2M category average |
+| **Average Order Value by Category** | AOV by category against the $627.04 company baseline |
+| **Return Rate by Category** | Return rate by category against the 4.0% company average; categories above average are highlighted |
+
+**Filters:** Region, Category, Year, Month (apply across all views).
+
+## Key Insights
+
+- **Steady long-term growth.** The rolling 12-month average trends upward from roughly $1M to $1.4M+ per month, independent of seasonal spikes.
+- **Consistent seasonality.** November and December are the strongest months in every year, with 2023–2025 showing the darkest (highest-revenue) year-end cells.
+- **Core business drivers.** Toys and Electronics sit in the top-right quadrant (above-average profit *and* margin). Home and Sports have high margins (~25–30%) but lower profit due to lower revenue.
+- **Revenue concentration.** Apparel ($12.5M), Toys ($11.9M), and Electronics ($11.8M) together generate roughly 49% of total revenue.
+- **High-value baskets.** Toys ($960.30) and Beauty ($797.48) lead AOV; Home is lowest at $361.76.
+- **Return-rate watch list.** Beauty (8.5%), Apparel (7.6%), and Electronics (5.0%) exceed the 4% company average. Beauty and Apparel are notable since they also carry high revenue/AOV.
+
+## Recommendations
+
+- Protect and scale **Toys** and **Electronics**, which combine strong profit with strong margin.
+- Investigate **Beauty and Apparel returns** (quality, sizing, product descriptions) to recover margin on high-revenue categories.
+- Explore ways to grow volume in **Home** and **Sports**, where margins are strong but revenue is low.
+- Plan inventory, staffing, and marketing spend around the **Nov–Dec peak**, and consider promotions to lift softer months (Jan–Feb).
+
+## Conclusion
+
+City Market Co. is on a healthy long-term growth path, with revenue climbing steadily beyond the effect of holiday peaks. Performance is highly seasonal: November and December consistently deliver the strongest results, so planning around the year-end surge is critical.
+
+Profitability is not evenly distributed across the portfolio. Toys and Electronics are the clearest core drivers, pairing above-average profit with strong margins, while Home and Sports show healthy margins but limited scale. Beauty and Apparel generate substantial revenue and high order values, but their elevated return rates put pressure on the profit they deliver.
+
+Overall, the biggest opportunities lie in protecting the strongest categories, reducing returns in high-revenue categories, and building volume where margins are already strong, so that sales growth translates into proportionally stronger profit.
 
 ## Data Overview
 
@@ -54,106 +107,6 @@ To ensure accurate analysis, raw transactional records were processed and valida
 <img width="1218" height="203" alt="image" src="https://github.com/user-attachments/assets/bfc55982-0e41-4d05-9d20-3640045e3dbe" />
 
 <img width="1288" height="120" alt="image" src="https://github.com/user-attachments/assets/84798493-6f01-49f5-b85b-80e0f72f5d4a" />
-
-
-
-## Sales Dashboard 
-<img width="1297" height="739" alt="image" src="https://github.com/user-attachments/assets/726e2594-666a-45d7-ab2f-c395e22cc3d7" />
-
-<p></p>
-
-
-## Key Insights
-
-**Growth is steady, but slowing:**
-Net Sales ($16.9M) and Net Profit ($3.6M) are both up YoY, but growth has tapered from ~8.9% to 6.3%.
-
-**Profitability is strong overall:**
-A 21.07% profit margin (up 1.4% vs. prior year) indicates the business is becoming more profitable. 
-
-**Profit is concentrated in Northeast cities:**
-New York, Philadelphia, and Boston lead in total profit, indicating the Northeast is the primary profit engine. 
-
-**Underperforming cities are spread across regions:**
-Bottom performers (Charlotte, Phoenix, Los Angeles) are not isolated to one region, pointing to city-level execution issues rather than regional strategy alone. 
-
-**Sales peak late in the year, but profit lags until year-end:**
-Sales climb through Q4, but profit only spikes sharply in December, suggesting margin pressure during peak sales months.
-
-**Monthly performance is inconsistent across stores:**
-The heatmap shows that nearly every store struggles in January and February, with profit turning negative or flat across all locations. Performance builds through the year and peaks in Q4, indicating a heavy reliance on holiday/seasonal sales to drive annual profitability. 
-
-
-## Products Dashboard 
-
-<img width="1297" height="739" alt="image" src="https://github.com/user-attachments/assets/688fc216-6984-41d4-9011-d390ea20c6f7" />
-
-<p></p>
-
-## Key Insights 
-
-**Unit growth is outpacing value growth**
-Units Sold (+5.3% YoY) increased meaningfully, while Average Order Value (+0.4%) remained nearly flat. 
-
-**Profit per order is improving, but modestly**
-Average Profit per Order rose 1.8% YoY, indicating slight margin gain though not at the same pace as unit growth, suggesting the business is scaling volume faster than it is scaling value. 
-
-**High-margin subcategories are not always top profit drivers**
-Some of the highest margin categories (Phones 35.2%, Outdoor 32.2%) are strong contributors, but others with high margins (e.g. Decor 36%, Furniture 33.5%) fall into low total profit suggesting low sales volume is limiting impact. 
-
-**Low-margin categories are dragging overall profitability**
-subcategories like Accessories (15.4%) and Games (9.8%) generate weak margins and contribute to the bottom tier of profit performance, making them clear targets for pricing or cost optimization.
-
-**Profit performance is concentrated in a few key subcategories**
-Educational, Laptops, and Kitchen lead in total profit, indicating a reliance on a small group of categories to drive overall product profitiability.
-
-**Clear gaps between high-sales and high-margin segments**
-The scatterplot shows several subcategories sitting above the average margine line but left of the average sales line (high margin, low volume) representing the clearest growth opportunites. Subcategories below average profit margin but right of average sales are generating volume without proportional profitability. 
-
-**Seasonal demand varies significantly by subcategory**
-The heatmap shows Menswear and Chairs having their worst profit in January and February before recovering later in the year. Top subcategories like Educational and Laptops show steady blue throught, suggesting their profitability is less seasonal and more structually driven.
-
-## Recommendations
-
-**1. Strengthen performance in underperforming cities:**
-Charlotte, Phoenix, and Los Angeles consistently lag in profit despite being in different regions. Recommended actions include:
-  - Conduct store level audits
-  - Evaluate staffing, inventory mix, and local pricing
-  - Introduce targeted promotions to boost conversions
-
-**2. Reduce margin pressure during peak sales months:**
-Sales rise through Q4, but profit only spikes in December, indicating margin compression earlier in the quarter.
-Recommended actions iclude:
-  - Review discounting and promotional strategy in October-November
-  - Optimize inventory to reduce reliance on markdowns
-  - Negotiate seasonal vendor terms
-
-**3. Address early-year performance dips:**
-January and February show negative or flat profit across nearly all stores.
-Recommended actions include: 
-  - Launch winter-specific product bundles
-  - Adjust staffing schedules to reduce labor cost during slow periods
-  - Promote categories that remain stable during winter months
-
-**4. Expand high-margin, low-volume product categories:**
-Categories like Decor, Furniture, and Outdoor have strong margins but low sales volume.
-Recommended actions: 
-  - Increase merchandsing visibility and digital placement
-  - Bundle high-margin items with popular categories
-  - Test regional assortment expansion in high-performing cities
-
-**5. Improve profitability in low-margin, high-volume categories:** 
-Accessories and Games generate significant sales volume but weak margins.
-Recommended actions: 
-  - Reassess pricing strategy
-  - Explore supplier renegotiation 
-
-
-## Conclusion
-
-This analysis provides management with a clear, data-driven roadmap to address City Market Co's flattening sales growth and operational inefficiencies. While steady overall margins and top-performing markets like the Northeast demonstrate a solid operational foundation, significant opportunities remain to optimize  underperforming store locations and align product volume with profitability. 
-
-By executing strategic interventions, such as restructuring early-year and peak-season promotional strategies, expanind visibility for high-margin subcategories, and addressing city-level execution issues, City Market Co. can protect its margins, smooth out seasonal profit volatility, and convert revenue growth into sustained, long-term profitabilty. 
 
 
 
