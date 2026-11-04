@@ -2,7 +2,7 @@
 
 <p></p>
 
-# City Market Co. | Sales & Product Performance Analysis
+# City Market Co. | Sales & Performance Analysis
 
 Tableau Public Dashboard: (__insert link__)
 
@@ -26,7 +26,7 @@ This analysis aims to translate raw sales data into actionable insights that wil
 * **Which categories carry the highest order values, and which have return-rate problems?**
 
 
-## Executive Sales Performance Dashboard 
+## Executive Sales & Performance Dashboard 
 
 <img width="1246" height="766" alt="image" src="https://github.com/user-attachments/assets/7c9fc94b-bc42-466e-90de-c768f4111eac" />
 
@@ -56,12 +56,13 @@ This analysis aims to translate raw sales data into actionable insights that wil
 
 ## Key Insights
 
-- **Steady long-term growth.** The rolling 12-month average trends upward from roughly $1M to $1.4M+ per month, independent of seasonal spikes.
-- **Consistent seasonality.** November and December are the strongest months in every year, with 2023–2025 showing the darkest (highest-revenue) year-end cells.
-- **Core business drivers.** Toys and Electronics sit in the top-right quadrant (above-average profit *and* margin). Home and Sports have high margins (~25–30%) but lower profit due to lower revenue.
-- **Revenue concentration.** Apparel ($12.5M), Toys ($11.9M), and Electronics ($11.8M) together generate roughly 49% of total revenue.
-- **High-value baskets.** Toys ($960.30) and Beauty ($797.48) lead AOV; Home is lowest at $361.76.
-- **Return-rate watch list.** Beauty (8.5%), Apparel (7.6%), and Electronics (5.0%) exceed the 4% company average. Beauty and Apparel are notable since they also carry high revenue/AOV.
+* **Is revenue growing over the long term, independent of holiday spikes?** Yes. The rolling 12-month average trends steadily upward from roughly $1M to $1.4M+ per month between 2021 and 2025, showing baseline growth that is not explained by holiday peaks alone.
+
+* **How consistent is the seasonal pattern across years?** Very consistent. November and December are the strongest months in every year (ranging up to ~$2.1M), with 2023–2025 showing the highest year-end revenue. January and February are consistently among the softest months.
+
+* **Which categories drive both profit and margin?** Toys and Electronics are the core drivers, landing in the top-right quadrant with above-average profit and margin (vs. the 20.7% margin / $1.91M profit company averages). Home and Sports have high margins (~25–30%) but lower total profit due to lower revenue. Apparel, Toys, and Electronics together generate roughly 49% of total revenue.
+
+* **Which categories carry the highest order values, and which have return-rate problems?** Toys ($960.30) and Beauty ($797.48) lead on AOV, while Home is lowest at $361.76. Beauty (8.5%), Apparel (7.6%), and Electronics (5.0%) exceed the 4% company average return rate. Beauty and Apparel are the biggest concern, since they pair high revenue and order value with high returns.
 
 ## Recommendations
 
