@@ -4,8 +4,6 @@
 
 # City Market Co. | Sales & Performance Analysis
 
-Tableau Public Dashboard: (__insert link__)
-
 ## Tools Used
 
 **Excel** - Data Cleaning, Validation, Calculations
