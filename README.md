@@ -13,7 +13,7 @@ Tableau Public Dashboard: (__insert link__)
 **Tableau** - Data Modeling, Visualization, Dashboard
 
 ## Project Overview & Objectives
-City Market Co. is a fictional retailer seeking to understand the drivers of sales and profitability across its 20 store locations. Management needs visibility into company-wide growth, product profitability, seasonal trends,and product category performance, with particular attention to areas where sales volume is not translating into proportional profit.. 
+City Market Co. is a fictional retailer seeking to understand the drivers of sales and profitability across its 20 store locations. Management needs visibility into company-wide growth, product profitability, seasonal trends, and category performance, particularly where high sales volume is not translating into proportional profit.
 
 This analysis aims to translate raw sales data into actionable insights that will address the following business questions posed by management:
 
