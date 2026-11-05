@@ -36,7 +36,8 @@ This analysis aims to translate raw sales data into actionable insights that wil
 
 ## Executive Sales & Performance Dashboard 
 
-<img width="1246" height="766" alt="image" src="https://github.com/user-attachments/assets/7c9fc94b-bc42-466e-90de-c768f4111eac" />
+<img width="843" height="574" alt="image" src="https://github.com/user-attachments/assets/c1a144dd-9b19-4cbc-9363-c9769c79153b" />
+
 
 <p></p>
 
