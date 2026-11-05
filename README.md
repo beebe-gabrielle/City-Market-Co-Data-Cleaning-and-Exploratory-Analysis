@@ -36,7 +36,7 @@ This analysis aims to translate raw sales data into actionable insights that wil
 
 <img width="843" height="574" alt="image" src="https://github.com/user-attachments/assets/c1a144dd-9b19-4cbc-9363-c9769c79153b" />
 
-
+Dashboard 5.png
 <p></p>
 
 ## Headline KPIs (all regions, all years)
